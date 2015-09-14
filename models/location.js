@@ -8,9 +8,9 @@ var LocationSchema = new mongoose.Schema({
   lat: Number,
   long: Number,
   userPictures: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'UserPicture'
-
+        path: String,
+        width: Number,
+        height: Number
   }]
 });
 
