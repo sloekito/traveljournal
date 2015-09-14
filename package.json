@@ -1,0 +1,29 @@
+{
+  "name": "traveljournal",
+  "version": "1.0.0",
+  "description": "Google Maps-based app to save my favorite travel destinations",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sloekito/memoir.git"
+  },
+  "keywords": [
+    "travel",
+    "journal",
+    "maps"
+  ],
+  "author": "Sheila Loekito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sloekito/memoir/issues"
+  },
+  "homepage": "https://github.com/sloekito/memoir#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "mongoose": "^4.1.6",
+    "qs": "^5.1.0"
+  }
+}
